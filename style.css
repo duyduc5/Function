@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@700&family=Open+Sans:ital,wght@1,300&family=Roboto+Slab&family=Roboto:ital,wght@0,100;0,900;1,700;1,900&family=Sonsie+One&display=swap');
+
+html {
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    /* font-family: 'Sonsie One', cursive; */
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    text-align: center;
+    width: 50rem;
+    height: 17rem;
+}
+.color{
+    background-color: silver;
+    color: black;
+}
+li{
+    list-style: none;
+}
+.list li {
+    margin-top: 1.2rem;
+    list-style: none;
+    color: blueviolet;
+    font-size: 1.2rem;
+}
+.link{
+    margin-top: 3rem;
+}
+.boder_2{
+    margin-top: 2rem;
+}

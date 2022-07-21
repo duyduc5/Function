@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>CSS Function</h1>
+    <table border="1">
+        <tr>
+            <th>Function</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td><u>calc()</u></td>
+            <td>Cho phép bạn thực hiện các phép tính để xác định giá trị thuộc tính<br> CSS</td>
+        </tr>
+        <tr class="color">
+            <td><u>conic-gardient()</u></td>
+            <td>Tạo một gardient hình nón</td>
+        </tr>
+        <tr>
+            <td><u>counter()</u></td>
+            <td>Trả về giá trị hiện tại của bộ đếm đã đặt tên</td>
+        </tr>
+        <tr class="color">
+            <td><u>cubic-bezier()</u></td>
+            <td>Xác định đường cong Bezier khối</td>
+        </tr>
+        <tr>
+            <td><u>hsl()</u></td>
+            <td>Xác định màu sắc bằng mô hình Hue-Saturation-Lightness(HSL)</td>
+        </tr>
+        <tr class="color">
+            <td><u>hsla()</u></td>
+            <td>Xác định màu sắc bằng mô hình Hue-Saturation-Lightness-Alpha(HSLA)</td>
+        </tr>
+        <tr>
+            <td><u>linear-gradient()</u></td>
+            <td>Tạo một gardient tuyến tính</td>
+        </tr>
+        <tr class="color">
+            <td><u>Radial-gradient()</u></td>
+            <td>Tạo một gardient xuyên tâm</td>
+        </tr>
+        <tr>
+            <td><u>repeating-conic-<br>gradient()</u></td>
+            <td>Lặp lại một gradient hình nón</td>
+        </tr>
+        <tr class="color">
+            <td><u>repeating-linear-<br>gradient()</u></td>
+            <td>Lặp lại một gardient tuyến tính</td>
+        </tr>
+        <tr>
+            <td><u>repeating-radial-<br>gradient()</u></td>
+            <td>Lặp lại một gardient xuyên tâm</td>
+        </tr>
+        <tr class="color">
+            <td><u>rgb()</u></td>
+            <td>Xác định màu sắc bằng cách sử dụng mô hình Đỏ-Lục-Lam(RGBA)</td>
+        </tr>
+        <tr>
+            <td><u>rgba()</u></td>
+            <td>Xác định màu sắc bằng cách sử dụng mô hình Đỏ-Lục-Lam-Alpha<BR>(RGBA)</td>
+        </tr>
+        <tr class="color">
+            <td><u>var()</u></td>
+            <td>Chèn giá trị của thuộc tính tùy chỉnh</td>
+        </tr>
+    </table>
+    <li>Pseudo classes , Elenments</li>
+    <li>Psedo-classes được sử dụng để định nghĩa một <b>trạng thái</b> đặc biệt nào đó của một phần tử <br> được chọn
+    </li>
+    <div class="list">
+        <li>:hover</li>
+        <li>:active</li>
+        <li>:focus</li>
+        <li>:first-child</li>
+    </div>
+    <p>pseudo-Elements có thể dịch nôm na là <b>phần tử giả</b> , được sử dụng để tạo một số style đặc biệt <br> của
+        Elenments được chọn </p>
+    <div>
+        <li> <i>Style cho chữ cái đầu tiên , hoặc dòng đầu tiên của phần tử</i> </li>
+        <li> <i>Chèn nội dung trước hoặc sau nội dung của phần tử </i> </li>
+    </div>
+    <div class="list">
+        <li>::before</li>
+        <li>::after</li>
+        <li>::first-line</li>
+        <li>::first-letter</li>
+    </div>
+    <div class="link">
+        <p>http://www.w3schools.com/css/css_pseudo_classes.asp</p>
+        <p>http://www.w3schools.com/css/css_pseudo_classes.elenments.asp</p>
+    </div>
+
+    <h1>CSS Position</h1>
+    <p> <b>Với thuộc tính Position chúng ta có 5 giá trị chính cần biết</b> </p>
+    <p> <b>Static :</b> Đây được xem là giá trị hiển thị Position trong css một cách mặc định (defaut) , các thành <br>phần sẽ nằm theo thứu tự của văn bản </p>
+    <p> <b>Relative :</b> Định vị tri tuyệt đối cho các thành phần , không gây ảnh hưởng tới vị trí ban đầu hay <Br> các thành phần khác </p>
+    <p> <b>Absolute : </b> Gía trị này sẽ giúp định vị trí tuyệt đối cho các thành phần theo thành phần bao ngoài <br> ,hoặc ít nhất là theo cửa sổ trình duyệt . <b>Fixed:</b>Định vị trí tương đối cho thành phần theo cửa sổ <Br> trình duyệt</p>
+    <p> <b>Fixed :</b> Định vị và giúp cho phần tử luôn cố định một chỗ , ví dụ như khi bạn scroll trình duyệt <br> chẳng hạn</p>
+    <p> <b>Inherit :</b> Xác định thừa hưởng thuộc tính từ thành phần cha (thành phần bao ngoài).</p>
+    <table border="1">
+        <tr>
+            <th>Property</th>
+            <th>Description</th>
+        </tr>
+        <tr class="color">
+            <td><u>bottom</u></td>
+            <td>Đặt cạnh lề dưới cùng cho một hộp đã định vị</td>
+        </tr>
+        <tr class="color">
+            <td><u>left</u></td>
+            <td>Đặt cạnh lề trái cho một hộp đã định vị</td>
+        </tr>
+        <tr class="color">
+            <td><u>right</u></td>
+            <td>Đặt cạnh lề phải cho một hộp đã định vị</td>
+        </tr>
+        <tr>
+            <td><u>top</u></td>
+            <td>Đặt cạnh lề trên cùng cho một hộp đã định vị</td>
+        </tr>
+    </table>
+</body>
+
+</html>
